@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 main {
@@ -57,10 +58,12 @@ header {
 
 ul {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    padding: 4px 4.5em;
+    list-style: none;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 48px; */
 }
 
 li {
-    margin: 20px;
+    /* margin: 3px; */
 }
