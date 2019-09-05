@@ -22,13 +22,12 @@ section {
     /* background-color: yellowgreen; */
     height: 450px;
     margin-bottom: 200px;
-    padding-top: 75px;
+    padding-top: 30px;
 }
 
 @media(max-width:600px) {
     section {
         /* background-color: blue; */
-        height: 722px;
         padding-top: 100px;
     }
 }
@@ -57,7 +56,8 @@ header {
 }
 
 ul {
-    width: 610px;
+    margin: 8px -16px;
+    /* width: 610px; */
     padding: 4px 4.5em;
     display: flex;
     list-style: none;
@@ -66,8 +66,31 @@ ul {
 }
 
 li {
+    float: left;
+    width: 25%;
+    padding: 10px;
     /* margin: 3px; */
 }
+
+@media screen and (max-width: 1100px) {
+    li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    li {
+        width: 100%;
+    }
+    .homePage img {
+        width: 200px;
+        padding: 0 20px 20px 5px;
+        */
+    }
+}
+
+
+/* nav */
 
 nav {
     display: block;
