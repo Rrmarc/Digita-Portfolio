@@ -18,6 +18,7 @@ main {
 }
 
 section {
+    font-family: 'Lexend Zetta', sans-serif;
     position: relative;
     /* background-color: yellowgreen; */
     height: 450px;
@@ -93,6 +94,7 @@ li {
 /* nav */
 
 nav {
+    font-family: 'Lexend Zetta', sans-serif;
     display: block;
     color: black;
     padding: 16px;
