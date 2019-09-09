@@ -74,7 +74,7 @@ ul {
     margin: 0 auto;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 li {
@@ -134,3 +134,30 @@ nav a {
     padding: 16px;
     text-decoration: none;
 }
+
+
+/* Conent on About me page */
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.content>img {
+    /* flex-basis: 50%; */
+    height: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.content>p {
+    flex-basis: 50%;
+    flex-grow: 1;
+    align-self: center;
+}
+
+
+/* ______________________ */
