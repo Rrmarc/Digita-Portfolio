@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lexend Zetta', sans-serif;
 }
 
 main {
     margin: 20px 10px 0 10px;
     padding: 30px 157px;
-    /* border: 3px solid blueviolet; */
+    border: 3px solid blueviolet;
     overflow: auto;
 }
 
@@ -18,17 +19,16 @@ main {
 }
 
 section {
+    border: 3px solid salmon;
+    box-sizing: border-box;
     font-family: 'Lexend Zetta', sans-serif;
     position: relative;
-    /* background-color: yellowgreen; */
-    height: 450px;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
     padding-top: 30px;
 }
 
 @media(max-width:600px) {
     section {
-        /* background-color: blue; */
         padding-top: 100px;
     }
 }
@@ -56,21 +56,20 @@ header {
     padding: 0 20px 20px 20px;
 }
 
+
+/* flex parent */
+
 ul {
-    margin: 8px -16px;
-    /* width: 610px; */
-    padding: 4px 4.5em;
+    border: 3px solid salmon;
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
+    flex-direction: column;
     grid-gap: 85px;
 }
 
 li {
-    float: left;
-    width: 25%;
+    flex-basis: 25%;
     padding: 10px;
-    /* margin: 3px; */
 }
 
 @media screen and (max-width: 1100px) {
@@ -109,11 +108,4 @@ nav a {
     color: black;
     padding: 16px;
     text-decoration: none;
-    /* float: left;
-    display: block;
-    color: blue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    position: relative; */
 }
